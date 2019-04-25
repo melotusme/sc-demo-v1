@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/melotusme/sc-demo-config.git
+          basedir: /Users/wrong/i/tmp/sc-demo-config
+server:
+  port: 6002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://s1:8761/eureka/,http://s2:8762/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

@@ -1,0 +1,4 @@
+zuul:
+  routes:
+    user-edge-srvice:
+      path: /user/**
