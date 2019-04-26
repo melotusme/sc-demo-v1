@@ -7,6 +7,7 @@ spring:
         git:
           uri: https://github.com/melotusme/sc-demo-config.git
           basedir: /Users/wrong/i/tmp/sc-demo-config
+          private-key: /Users/wrong/.ssh/id_rsa
 server:
   port: 6002
 

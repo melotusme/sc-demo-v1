@@ -3,7 +3,7 @@ package info.zhirong.feign;
 import org.springframework.stereotype.Component;
 
 /**
- * @author 
+ * @author
  * Created on 2019-04-21
  */
 @Component

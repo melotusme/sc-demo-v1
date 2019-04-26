@@ -9,11 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 import info.zhirong.feign.UserServiceClient;
 
 /**
- * @author 
+ *@author wrong
  * Created on 2019-04-21
  */
 @RestController
-
 public class LoginController {
 
     @Autowired

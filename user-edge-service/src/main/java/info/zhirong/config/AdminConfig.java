@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 /**
- * @author hanzhirong <hanzhirong@kuaishou.com>
+ * @author wrong big@brother.watch
  * Created on 2019-04-25
  */
 @Data

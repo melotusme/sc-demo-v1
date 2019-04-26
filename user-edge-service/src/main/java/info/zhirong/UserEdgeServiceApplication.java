@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author 
+ * @author wrong
  * Created on 2019-04-21
  */
 //@EnableEurekaClient

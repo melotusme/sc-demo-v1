@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.netflix.discovery.DiscoveryClient;
 
 /**
- * @author 
+ * @author wrong
  * Created on 2019-04-21
  */
 @RestController

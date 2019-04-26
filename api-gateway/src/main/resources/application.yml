@@ -1,4 +1,31 @@
+spring:
+  application:
+    name: api-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://s1:8761/eureka/,http://s2:8762/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+server:
+  port: 8008
+
+
 zuul:
   routes:
-    user-edge-srvice:
+    user-edge-srvice-config:
       path: /user/**
+      stripPrefix: true
+      serviceId: user-edge-service
+#      serviceId: user-edge-service
+      sensitiveHeaders:
+#      ignoredPatterns:
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -6,7 +6,7 @@ import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
 /**
- * @author 
+ * @author wrong
  * Created on 2019-04-21
  */
 @EnableHystrixDashboard
