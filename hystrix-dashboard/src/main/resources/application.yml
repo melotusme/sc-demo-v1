@@ -3,3 +3,8 @@ spring:
     name: hystrix-dashboard
 server:
   port: 5001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://s1:8761/eureka/,http://s2:8762/eureka/

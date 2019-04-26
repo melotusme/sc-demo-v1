@@ -16,7 +16,7 @@ import com.netflix.zuul.exception.ZuulException;
  * Created on 2019-04-26
  */
 @Component
-public class addResponseHeaderFilter extends ZuulFilter {
+public class AddResponseHeaderFilter extends ZuulFilter {
 
     @Override
     public String filterType() {
