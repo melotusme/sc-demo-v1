@@ -15,5 +15,6 @@ import lombok.Data;
 @ConfigurationProperties("admin")
 @RefreshScope
 public class AdminConfig {
+
     private String name;
 }

@@ -37,7 +37,7 @@ public class AddResponseHeaderFilter extends ZuulFilter {
     public Object run() throws ZuulException {
         RequestContext requestContext = RequestContext.getCurrentContext();
         HttpServletResponse response = requestContext.getResponse();
-//        response.addHeader("x-wrong", "干得漂亮");
+        //        response.addHeader("x-wrong", "干得漂亮");
         response.addHeader("x-wrong", "good job");
         return null;
     }
