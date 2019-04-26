@@ -19,7 +19,7 @@ zuul:
       path: /user/**
       stripPrefix: true
       serviceId: user-edge-service
-#      serviceId: user-edge-service
+      #      serviceId: user-edge-service
       sensitiveHeaders:
 #      ignoredPatterns:
 
